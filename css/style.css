@@ -135,7 +135,7 @@ body{
 .main {
    text-align: center;
    padding: 30px;
-   background-color: rgb(166, 217, 233);
+   background-color: rgb(126, 211, 236);
 }
 
 .block {
@@ -248,7 +248,7 @@ body{
    margin: 0 100px 0 0;
 }
 .image img:hover{
-   opacity: 0.5;
+   opacity: 0.7;
    transition: 0.2s;
 }
 .inner {
@@ -270,9 +270,11 @@ body{
    font-style: italic;
    margin: 0px 0px 20px 0px;
    color: rgb(81, 212, 169);
+   text-shadow: 1px 1px 0px #000;
 }
 .slogan:hover{
-   border-bottom: 1px solid rgb(226, 177, 84);
+   text-shadow: 3px 2px 0px #000;
+   transition: 0.2s;
 }
 .sloganspan {
    display: block;
@@ -281,17 +283,17 @@ body{
    font-style: italic;
    color: rgb(179, 179, 179);
    margin: 0 0 10px 0;
+   text-shadow: 1px 1px 0px #000;
 }
 .imagetext p{
    font-size: 18px;
    font-style: italic;
    font-weight: 500;
    line-height: 2;
-   color: rgb(248, 164, 234);
+   color: rgb(245, 68, 215);
+   text-decoration: underline;
 }
-.displaywrapper{
 
-}
 .displayblock {
 }
 .displayblock h2{
